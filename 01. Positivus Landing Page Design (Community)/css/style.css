@@ -80,6 +80,16 @@ body {
     line-height: 28px;
 }
 
+.companies_list {
+    justify-content: space-between;
+    vertical-align: center;
+}
+
+.companies_list img {
+    display: block;
+    width: 100%;
+}
+
 .button {
     text-decoration: none;
     font-family: 'Space Grotesk';
