@@ -52,6 +52,9 @@ body {
 
 /* header end */
 
+
+/* main secition start */
+
 .mainsection {
     flex-direction: row;
     justify-content: space-between;
@@ -80,6 +83,8 @@ body {
     line-height: 28px;
 }
 
+/* main secition end */
+
 .companies_list {
     justify-content: space-between;
     vertical-align: center;
@@ -88,6 +93,37 @@ body {
 .companies_list img {
     display: block;
     width: 100%;
+}
+
+
+.service_section {
+    justify-content: left;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 80px
+}
+
+.service_section p {
+    max-width:  580px;
+    font-size: 18px;
+    margin: 0;
+}
+
+.service_section_header {
+    background-color: #B9FF66;
+    border: 0px, solid, #B9FF66;
+    border-radius: 7px;
+    min-width: 178px;
+    max-height: 51px;
+}
+
+.service_section h2 {
+    font-family: 'Space Grotesk';
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    margin: 0px;
+    font-weight: 500;
 }
 
 .button {
