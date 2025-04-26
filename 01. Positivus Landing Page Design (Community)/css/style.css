@@ -6,6 +6,7 @@ body {
 * {
     font-family: 'Space Grotesk';
     font-size: 20px;
+    box-sizing: border-box;
 }
 
 .container {
@@ -27,7 +28,7 @@ body {
 
 .logo img {
     display: block;
-    width: 100%; /* чтобы она занимала всю ширину родителя */
+    /* width: 100%;  */
 }
 
 
@@ -135,3 +136,121 @@ body {
     border: 0px, solid, black;
     border-radius: 14px;
 }
+
+.card_section {
+    flex-direction: column;
+}
+
+.card_section_group {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.card_section_card {
+    width: 50%;
+    /* max-width: 100%; */
+    height: 310px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    border-radius: 45px;
+    border: 1px solid black;
+    box-shadow: 0px 5px 0px 0px black;
+    overflow: hidden;
+}
+
+.card_section_card_description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card_section_card_button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 164px;
+}
+
+.card_section_card div h2 div {
+    font-family: 'Space Grotesk';
+    font-size: 30px;
+    margin: 0px;
+}
+
+.card_section_card_h2_white, .card_section_card_h2_green {
+    max-width: 225px;
+}
+
+.card_section_card_h2_green div {
+    display: inline-block;
+    padding-left: 7px;
+    padding-right: 7px;
+    background-color: #B9FF66;
+    border-radius: 7px;
+}
+
+.card_section_card_h2_white div{
+    display: inline-block;
+    padding-left: 7px;
+    padding-right: 7px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.card_section_card_bgcolor_gray {
+    background-color: #F3F3F3;  
+    
+}
+
+.card_section_card_bgcolor_green {
+    background-color: #B9FF66;
+}
+
+.card_section_card_bgcolor_black {
+    background-color: black;
+}
+
+
+.card_section_card_button {
+    display: flex;
+}
+
+.card_section_card_arrow {
+    padding: 10px;
+    border-radius: 100px;
+}
+
+.card_section_card_bgcolor_black .card_section_card_arrow{
+    background-color: white;
+}
+
+.card_section_card_bgcolor_green .card_section_card_arrow{
+    background-color: black;
+}
+
+.card_section_card_bgcolor_gray .card_section_card_arrow{
+    background-color: black;
+}
+
+.card_section_card_bgcolor_black .card_section_card_button_description{
+    color: white;
+}
+
+.card_section_card_bgcolor_green .card_section_card_button_description{
+    color: black;
+}
+
+.card_section_card_bgcolor_gray .card_section_card_button_description{
+    color: black;
+}
+
+.card_section_card_arrow img {
+    display: block;
+    width: 100%;
+}
+
+
