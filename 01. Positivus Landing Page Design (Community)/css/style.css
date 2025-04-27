@@ -321,7 +321,8 @@ body {
 .case_container_item_breaker {
     height: 186px;
     border-right: 1px solid white;
-
+    font-size: 18px;
+    font-family: 'Space Grotesk';
 }
 
 .case_container_item {
