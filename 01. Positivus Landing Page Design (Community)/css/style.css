@@ -139,6 +139,7 @@ body {
 
 .card_section {
     flex-direction: column;
+    margin-bottom: 100px;
 }
 
 .card_section_group {
@@ -147,6 +148,10 @@ body {
     padding: 0px;
     gap: 40px;
     margin-bottom: 40px;
+}
+
+.card_section_group:last-child {
+    margin-bottom: 0px;
 }
 
 .card_section_card {
@@ -253,4 +258,44 @@ body {
     width: 100%;
 }
 
+.contact_section {
+    padding-top: 23.5px;
+    padding-bottom: 23.5px;
+}
+
+.contact_section_wrapper {
+    align-items: center;
+    background-color: #F3F3F3;
+    border-radius: 45px;
+    box-sizing:initial;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+}
+
+.contact_section_wrapper img {
+    margin-right: 135px;
+}
+
+.contact_section_body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 227px;
+    max-width: 517px;
+    margin-left: 60px;
+}
+
+ .contact_section_body h3 {
+    font-family: 'Space Grotesk';
+    color: black;
+    font-size: 30px;
+    margin: 0px;
+    font-weight: 500;
+ }
+
+ .contact_section_body .button {
+    max-width: 288px;
+ }
 
