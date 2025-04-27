@@ -7,6 +7,8 @@ body {
     font-family: 'Space Grotesk';
     font-size: 20px;
     box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
 }
 
 .container {
@@ -89,6 +91,7 @@ body {
 .companies_list {
     justify-content: space-between;
     vertical-align: center;
+    margin-bottom: 140px;
 }
 
 .companies_list img {
@@ -125,6 +128,9 @@ body {
     text-align: center;
     margin: 0px;
     font-weight: 500;
+
+    padding-left: 7px;
+    padding-right: 7px;
 }
 
 .button {
@@ -261,13 +267,14 @@ body {
 .contact_section {
     padding-top: 23.5px;
     padding-bottom: 23.5px;
+    margin-bottom: 140px;
 }
 
 .contact_section_wrapper {
     align-items: center;
     background-color: #F3F3F3;
     border-radius: 45px;
-    box-sizing:initial;
+    box-sizing: initial;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -299,3 +306,45 @@ body {
     max-width: 288px;
  }
 
+.case_container {
+    background-color: black;
+    color: white;
+    border-radius: 45px;
+    max-width: 1240px;
+    padding: 70px 60px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+    margin-bottom: 140px;
+}
+
+.case_container_item_breaker {
+    height: 186px;
+    border-right: 1px solid white;
+
+}
+
+.case_container_item {
+    /* max-width: 163px; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    gap: 20px
+}
+
+
+.case_container_button {
+    color: #B9FF66;
+    display: flex;
+    max-width: 145px;
+    justify-content: space-between;
+    align-items:end;
+    gap: 15px;
+}
+
+
+.case_container_arrow img {
+    display: block;
+    max-width: 100%;
+}
