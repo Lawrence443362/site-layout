@@ -444,6 +444,7 @@ body {
     padding: 0px;
     align-items: center;
     min-height: 773px;
+    margin-bottom: 140px;
 }
 
 .contact_us_form {
@@ -507,3 +508,121 @@ body {
 .contact_us_form {
     margin-left: 100px;
 }
+
+.section_footer {
+    color: white;
+    background-color: black;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1240px;
+    padding-left: 61px;
+    padding-right: 61px;
+    gap: 50px
+}
+
+.section_footer_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 55px;
+    margin-bottom: 16px;
+}
+
+.section_footer_header_menu {
+    display: flex;
+    gap: 40px;
+}
+
+.section_footer_header a {
+    /* text-decoration: none; */
+    color: white;
+}
+
+.section_footer_header_social_links {
+    display: flex;
+    gap: 20px;
+}
+
+.section_footer_body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section_footer_body_contacts_section {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    align-items: start;
+}
+
+.section_footer_body_contact_us {
+    display: inline-block;
+    background-color: #B9FF66;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 20px;
+    color: black;
+    border-radius: 7px;
+    font-weight: 500;
+}
+
+.section_footer_body_contacts {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.section_footer_body_subscribe {
+    background-color: #292A32;
+    padding: 58px 40px;
+    border-radius: 14px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.section_footer_body_subscribe button {
+    background-color: #B9FF66;
+    border-radius: 14px;
+    padding: 20px 35px;
+    color: black;
+    font-size: 20px;
+}
+
+.section_footer_body_subscribe input {
+    background-color: #292A32;
+    border-radius: 14px;
+    height: 65px;
+    width: 253.56px;
+    border: 1px solid white;
+}
+
+.section_footer_body_subscribe input::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+.section_footer_breaker {
+    border-bottom: 1px solid white;
+}
+
+.section_footer_body_copyright {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.section_footer_body_copyright a {
+    color: white;
+}
+
