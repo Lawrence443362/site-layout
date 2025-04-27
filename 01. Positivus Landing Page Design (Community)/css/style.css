@@ -353,6 +353,7 @@ body {
 .working_process {
     flex-direction: column;
     gap: 30px;
+    margin-bottom: 140px;
 }
 
 .working_process_item {
@@ -432,4 +433,77 @@ body {
 .working_process_item:hover .working_process_item_description {
     display: block;
     transition: 1s;
+}
+
+.contact_us {
+    border-radius: 45px;
+    background-color: #F3F3F3;
+    max-width: 1240px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    align-items: center;
+    min-height: 773px;
+}
+
+.contact_us_form {
+    width: 633px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+}
+
+.contact_us_form_radio {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 35px;
+    font-size: 18px;
+
+}
+
+.contact_us_form_radio_wrapper {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+.contact_us_form_radio_wrapper input {
+    width: 28px;
+    height: 28px;
+    border-color: black;
+}
+
+.contact_us_inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.contact_us_inputs_wrapper {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contact_us_inputs_wrapper input {
+    max-width: 556px;
+    height: 59px;
+    border-radius: 14px;
+}
+
+.contact_us_inputs_wrapper textarea {
+    max-width: 556px;
+    height: 59px;
+    border-radius: 14px;
+    height: 200px;
+}
+
+.contact_us_form .button {
+    max-width: 556px;
+}
+
+.contact_us_form {
+    margin-left: 100px;
 }
